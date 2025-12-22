@@ -47,7 +47,7 @@ function App() {
             rows="3"
             value={names}
             onChange={e => setNames(e.target.value)}
-            placeholder="Peter, Aditi, Ravi..."
+            placeholder="Name, Name, Name..."
           />
           <button 
             className="submit-btn" 
